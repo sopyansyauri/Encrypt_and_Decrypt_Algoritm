@@ -1,13 +1,14 @@
 # Encryption and Decryption Alogritm
 
-compile:
+compile and build:
 
 ```
-make
+$ cmake -S . -B .
+$ make
 ```
 
 Run:
 
 ```
-./main
+$ ./main
 ```
