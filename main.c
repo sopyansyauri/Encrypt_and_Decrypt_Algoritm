@@ -46,7 +46,9 @@ void decrypt(char *variable_src, char *variable_dest)
 
 int main(int argc, char *argv[])
 {
-    char *name = "DATA INI SANGAT BERHARGA DAN TIDAK BISA DI BACA";
+    char name[100];
+    printf("Masukan Text: ");
+    scanf("%s", name);
     int panjang = strlen(name);
     char encryptText[panjang];
     char decryptText[panjang];
